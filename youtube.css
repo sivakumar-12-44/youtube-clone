@@ -1,0 +1,235 @@
+container{
+    width: 100%;
+    display: flex;  
+}
+
+
+
+.first{
+    width: 50px;
+    align-items: center;
+    gap: 20px;
+    position: sticky;
+    background-color: white;
+    position: fixed;
+    top: 30px;
+    left: 0;
+    right: 0;
+
+
+}
+.bi{
+    font-size: 20px;
+    margin-right: 20px;
+    align-content: center;
+    
+    
+}
+.btn{
+    width: 50px;
+    padding: 8px;
+    border-radius: 14px;
+    font-size: x-small;
+    border: 1px lightgray;
+    margin-top: 10px;
+    cursor: pointer;
+    padding-left: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.logo{
+    height: 28px;
+}
+.top{
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    margin-bottom: 10px;
+    
+}
+.second{
+    width: 100%;
+    display: flex;
+    margin-left: 20px;
+    gap: 10px;
+    margin-bottom:0px;
+    flex: wrap;
+}
+.img{
+    width: 330px;
+    height: 325px;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    padding: 2px;
+    padding-bottom: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
+.picture{
+    width: 100%;
+    height: 220px;
+    border-radius: 14px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.profile{
+    display: flex;
+    
+
+
+}
+.user{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+    
+    
+}  
+.text{
+    font-size: smaller;
+    font-family: roboto,arial;
+    margin-left: 4px;
+    margin-top: 0;
+
+    
+}
+.sony{
+    margin-top: 0;
+    margin-bottom: 3px;
+    color: rgb(102, 97, 97);
+}
+.views{
+    margin-top: 0;
+    color: rgb(91, 88, 88);
+}
+.third{
+    margin-left: 20px;
+    margin-top: 0px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.account{
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.searchbar{
+    width: 400px;
+    height: 30px;
+    border-radius:14px;
+    margin-left: 3px;
+    padding-left: 20px;
+    font-size: medium;
+    border: 1px solid lightgray;
+    cursor: pointer;
+
+}
+.top-right{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.left{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.searchbtn{
+    width: 30px;
+    height: 30px;
+    border-radius: 14px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    margin-left: -1px;
+
+}
+.symbol{
+    size: 30px
+}
+.mic{
+    width: 30px;
+    height: 30px;
+    border-radius: 14px;
+    margin-left: 2px;
+    border: 1px  white;
+    margin-right: 20px;
+    cursor: pointer;
+    padding-right: 2px;
+}
+.middle{
+    align-items: center;
+}
+.voicemic{
+    width: 30px;
+    height: 30px;
+    border-radius: 14px;
+    margin-left: 20px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    padding-left: 5px;
+}
+.straight{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    top: 40px;
+    left: 0;
+    right:0;
+    background-color: white;
+    margin-top: -6.5px;
+
+    
+    
+}
+.straightbtn{
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+}
+.secondbtn{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+}
+.head{
+    position: fixed;
+    background-color: white;
+    height: 100px;
+    
+
+}
+
+
+
+body{
+    padding-top: 100px;
+    padding-left: 50px;
+}
